@@ -13,7 +13,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="bg-transparent px-10">
+    <nav className="bg-transparent px-10 bg-red-600">
       <div className="md:py-3 py-2 flex">
         <div className="md:ml-10 font-bold uppercase  ml-24  ">
           <Link href={"/"}>
@@ -48,7 +48,7 @@ export default function NavBar() {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden absolute top-11 right-0 w-full bg-red-500 p-4 z-[900px] ">
+          <div className="md:hidden absolute top-11 right-0 w-full p-4 z-[900px] ">
             <ul className="flex flex-col gap-1">
               <Link href={"/"}>
                 <li className="hover:bg-gray-500 py-1">Home</li>
