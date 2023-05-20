@@ -43,7 +43,7 @@ export default function NavBar() {
           </div>
         </div>
 
-        <div className="md:ml-80 ml-[300px]  absolute md:relative">
+        <div className="md:ml-80 ml-[300px] bg-red-500  absolute md:relative">
           <ShoppingCart />
         </div>
 

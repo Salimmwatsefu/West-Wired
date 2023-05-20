@@ -15,6 +15,7 @@ export default function Hero() {
   width={1900}
   height={1900}
   quality={100}
+  priority={true}
   className=" md:h-[70vh] h-[40vh] object-cover inset-0 bg-white/75"
 
   />

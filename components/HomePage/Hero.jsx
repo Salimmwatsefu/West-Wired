@@ -15,6 +15,7 @@ const Hero = () => (
         width={1900}
         height={1900}
         quality={100}
+        priority={true}
         className=" md:object-cover w-[200vh] md:h-[92vh] h-[50vh] object-center object-cover "
 
         />
