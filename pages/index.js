@@ -4,7 +4,7 @@ import { About, Categories, Hero } from "@/components/HomePage";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="!max-w-[410px] md:max-w-full ">
 
       <Hero/>
       <About/>

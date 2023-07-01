@@ -13,7 +13,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className="bg-transparent px-10 bg-red-600">
+    <nav className="bg-yellow-500 px-10 md:w-full w-[410px] !overflow-x-hidden">
       <div className="md:py-3 py-2 flex">
         <div className="md:ml-10 font-bold uppercase  ml-24  ">
           <Link href={"/"}>
@@ -34,7 +34,7 @@ export default function NavBar() {
             </Link>
           </ul>
 
-          <div className="md:hidden absolute -ml-[1100px]">
+          <div className="md:hidden  -ml-[999px] pr-[70px]">
             {isMenuOpen ? (
               <HiX onClick={toggleMenu} className="text-2xl" />
             ) : (
@@ -43,7 +43,7 @@ export default function NavBar() {
           </div>
         </div>
 
-        <div className="md:ml-80 ml-[300px] bg-red-500  absolute md:relative">
+        <div className="md:ml-80  md:relative -ml-[200px]">
           <ShoppingCart />
         </div>
 

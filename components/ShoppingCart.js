@@ -27,7 +27,7 @@ export default function ShoppingCart() {
         </div>
       </button>
       <Drawer isOpen={isCartOpen} onClose={toggleCart}>
-        <header className="bg-gray-900 text-white py-4 flex items-center justify-end px-4 h-14">
+        <header className="bg-gray-900 text-white py-4 flex items-center justify-end px-4 h-14 ">
           <button onClick={toggleCart}>Close</button>
         </header>
         <main className="bg-white p-4 text-black">

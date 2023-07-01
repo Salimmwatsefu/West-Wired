@@ -17,6 +17,7 @@ export default function NavCart() {
 	return (
 		<>
 			<Navbar onCartIconClick={handleCartIconClick} />
+			
 			<Drawer isOpen={isDrawerOpen} onCartIconClick={handleCartIconClick}>
 				<ShoppingCart/>
 			</Drawer>

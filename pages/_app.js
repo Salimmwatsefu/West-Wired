@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
       // Enables local storage
       shouldPersist={true}
     >
-      <Layout>
+      <Layout >
         <Component {...pageProps} />
       </Layout>
     </CartProvider>
